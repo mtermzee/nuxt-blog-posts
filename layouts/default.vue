@@ -47,3 +47,9 @@
 		<slot />
 	</main>
 </template>
+
+<style scoped>
+a.router-link-active {
+	color: green;
+}
+</style>
