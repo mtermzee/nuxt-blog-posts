@@ -49,7 +49,7 @@
 </template>
 
 <style scoped>
-a.router-link-active {
+.router-link-exact-active {
 	color: green;
 }
 </style>
