@@ -175,4 +175,10 @@ defineProps({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+img {
+	max-width: fit-content;
+	max-height: 30rem;
+	object-fit: scale-down;
+}
+</style>
