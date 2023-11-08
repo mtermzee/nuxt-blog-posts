@@ -1,9 +1,9 @@
 <template>
 	<div class="flex flex-col w-4/5 m-auto justify-center items-start">
 		<h1>Products page</h1>
-		<div class="grid grid-cols-4 gap-5">
-			<div v-for="p in products" :key="p.id">
-				<NuxtLink :to="'/products/' + p.id">{{ p.title }}</NuxtLink>
+		<div class="grid grid-cols-3 gap-4">
+			<div v-for="product in products" :key="product.id">
+				<ProductCard :data="product" />
 			</div>
 		</div>
 	</div>

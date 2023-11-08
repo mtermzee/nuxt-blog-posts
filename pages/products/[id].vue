@@ -1,11 +1,6 @@
 <template>
 	<div class="flex flex-col w-4/5 m-auto justify-center items-start">
-		<p>Product details for {{ product?.id }}</p>
-		<p>{{ product?.price }} $</p>
-		<p>{{ product?.title }}</p>
-		<p>
-			{{ product?.description }}
-		</p>
+		<ProductDetails :data="product" />
 	</div>
 </template>
 
